@@ -28,14 +28,20 @@ If nothing was returned please install Java and verify JAVA_HOME path:
 1. Checkout code from this repository.
 2. There are 2 modes of running those:
   - headless 
-    - Go to BaseTest class and set testchromeOptions.setHeadless(true)
+    - Go to BaseTest class and set:
+    ```
+    chromeOptions.setHeadless(true)
+    ```
   - inside Chrome browser 
     - Download and setup [ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/getting-started)
-    - Go to BaseTest class chromeOptions.setHeadless(false)
+    - Go to BaseTest class and set:
+    ```
+    chromeOptions.setHeadless(false)
+    ```
     - Set CHROMEDRIVER_PATH e.g. 
-      ```
-      CHROMEDRIVER_PATH = "/Users/Wojtek/chromedriver/chromedriver";
-      ```
+    ```
+    CHROMEDRIVER_PATH = "/Users/Wojtek/chromedriver/chromedriver";
+    ```
 3. Open Console/terminal.
 4. Execute following command: 
  ```
