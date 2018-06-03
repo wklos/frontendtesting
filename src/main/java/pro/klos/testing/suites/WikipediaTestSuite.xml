@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Wikipedia.org Test Suite">
+
+    <test name="Wikipedia.org tests">
+        <classes>
+            <class name="pro.klos.testing.tests.WikipediaOrgTests"/>
+        </classes>
+    </test>
+
+    <test name="Wikipedia.org additional tests">
+        <classes>
+            <class name="pro.klos.testing.tests.WikipediaOrgAdditionalTests"/>
+        </classes>
+    </test>
+
+</suite>
